@@ -52,3 +52,6 @@ hobbies_of_adults_with_hobby(Hobby, Adults) :-
     findall(Name,
             (is_adult(Name), has_hobby(Name, Hobby)),
             Adults).
+
+
+% swipl -s program.pl 
