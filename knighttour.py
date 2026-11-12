@@ -57,3 +57,6 @@
 (knight-tour 5)
 (knight-tour 6)
 (knight-tour 8)
+
+
+;;sb --script program. lisp
